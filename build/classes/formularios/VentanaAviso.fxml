@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="255.0" prefWidth="455.0" stylesheets="@../estilos/decoradoAviso.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controladores.VentanaAvisoController">
+   <top>
+      <Pane prefHeight="72.0" prefWidth="455.0" styleClass="paneTopAviso" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="169.0" layoutY="-3.0" text="¡Aviso!" textFill="WHITE">
+               <font>
+                  <Font name="Gabriola" size="64.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </top>
+   <bottom>
+      <Pane prefHeight="200.0" prefWidth="200.0" styleClass="paneBottomAviso" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="59.0" layoutY="14.0" prefHeight="104.0" prefWidth="337.0" text="No selecciono ninguna opcion o falta escoger una." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Gabriola" size="28.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnCerrar" layoutX="174.0" layoutY="127.0" mnemonicParsing="false" onAction="#Cerrar" prefHeight="25.0" prefWidth="107.0" styleClass="btnAceptarAviso" text="Aceptar">
+               <font>
+                  <Font name="Gabriola" size="21.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </bottom>
+</BorderPane>

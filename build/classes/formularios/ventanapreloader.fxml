@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="bpPreload" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="342.0" prefWidth="500.0" stylesheets="@../estilos/ventanapreloader.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controladores.VentanapreloaderController">
+   <top>
+      <Pane prefHeight="25.0" prefWidth="500.0" styleClass="pane1" stylesheets="@../estilos/ventanapreloader.css" BorderPane.alignment="CENTER" />
+   </top>
+   <center>
+      <Pane prefHeight="256.0" prefWidth="500.0" styleClass="paneBot" BorderPane.alignment="CENTER">
+         <children>
+            <Circle fx:id="circleA" fill="#ffffff00" layoutX="250.0" layoutY="147.0" radius="79.0" stroke="#00a398" strokeType="INSIDE" strokeWidth="10.0" style="-fx-stroke-dash-array: 50;" />
+            <Circle fx:id="circleB" fill="#ffffff00" layoutX="250.0" layoutY="147.0" radius="43.0" stroke="#00549e" strokeType="INSIDE" strokeWidth="10.0" style="-fx-stroke-dash-array: 45;" />
+            <Label fx:id="loading" layoutX="239.0" layoutY="190.0" opacity="0.0" text="Loading..." textFill="WHITE">
+               <font>
+                  <Font name="Gabriola" size="45.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </center>
+   <bottom>
+      <Pane prefHeight="24.0" prefWidth="500.0" styleClass="pane1" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>

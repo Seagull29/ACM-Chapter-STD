@@ -1,0 +1,25 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28/03/2020, 08:15:57 PM
+    Author     : selitzia
+*/
+
+.paneTopAviso{
+    -fx-background-color: #00336e;
+}
+.btnAceptarAviso {
+    -fx-background-color: orange;
+}
+.btnAceptarAviso:hover {
+    -fx-background-color: #701A2A;
+    -fx-text-fill: white;
+}
+.paneBottomAviso{
+    -fx-background-image: url(starry.jpg);
+    -fx-background-position: center center;
+    -fx-background-size: 600 450;
+}

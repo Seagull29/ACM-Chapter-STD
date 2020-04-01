@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27/03/2020, 11:39:28 AM
+    Author     : USER
+*/
+.button {
+    -fx-background-color: orange;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+}
+.button:hover {
+    -fx-background-color: #701A2A;
+    -fx-text-fill: white;
+}
+.radio-button .radio {
+    -fx-border-width: 2px;
+    -fx-border-color: #a80038;
+    -fx-background-color: white;
+    -fx-border-radius: 15px;
+    -fx-padding: 4px;
+}
+.radio-button .radio:selected {
+    -fx-background-color: red;
+}
+
+.TituloPrincipal {
+    -fx-background-color: cadetblue;
+}
+
+.TitulosSecundarios {
+
+}
+
+.PanelEnfermedad {
+    -fx-background-color: #ff7a8e; 
+}
+
+.PanelTipo {
+    -fx-background-color: #D64761; 
+}
+
+.PanelBoton {
+
+}
+.boxDato{
+    -fx-background-color: #db374f
+}
+.panelMensaje{
+    -fx-background-color: #dedede
+}
+.paneTextoInicial{
+    -fx-background-position: center center;
+    -fx-background-image:url(58090.jpg);
+    -fx-background-size: 1350 750;
+    -fx-background-color:transparent;
+    -fx-background-image-opacity: 0.5;
+}
+.paneColorB{
+    -fx-background-color:#002e4a;
+    
+}
